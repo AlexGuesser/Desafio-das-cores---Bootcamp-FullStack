@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Desafio - módulo 1</title>
+  </head>
+  <body>
+    <div>
+      <label id="labelRed">(R) Vermelho</label>
+      <input id="rangeRed" type="range" max="255" min="0" value="0" />
+      <input
+        class="inputText"
+        id="inputTextRed"
+        type="text"
+        readonly
+        value="0"
+      />
+    </div>
+    <div>
+      <label id="labelGreen">(G) Verde</label>
+      <input id="rangeGreen" type="range" max="255" min="0" value="0" />
+      <input
+        class="inputText"
+        id="inputTextGreen"
+        type="text"
+        readonly
+        value="0"
+      />
+    </div>
+    <div>
+      <label id="labelBlue">(B) Azul</label>
+      <input id="rangeBlue" type="range" max="255" min="0" value="0" />
+      <input
+        class="inputText"
+        id="inputTextBlue"
+        type="text"
+        readonly
+        value="0"
+      />
+    </div>
+    <svg width="400" height="110">
+      <rect
+        width="300"
+        height="100"
+        style="fill: rgb(0, 0, 0); stroke-width: 3; stroke: rgb(0, 0, 0)"
+      />
+    </svg>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

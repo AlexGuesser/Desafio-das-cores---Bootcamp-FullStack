@@ -1,0 +1,37 @@
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  width: 110px;
+  float: left;
+}
+
+#labelRed {
+  color: red;
+}
+
+#labelGreen {
+  color: green;
+}
+
+#labelBlue {
+  color: blue;
+}
+
+.inputText {
+  width: 50px;
+}
